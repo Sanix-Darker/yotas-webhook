@@ -1,0 +1,3 @@
+- Deploy it/ Create a route for it on the droplet
+- link the CI/CD
+- Link the yotas-webhook to yotas-API
