@@ -11,3 +11,6 @@ online:
 run:
 	go run main.go
 
+# To build the webhook watcher
+build:
+	go build -o yotas .

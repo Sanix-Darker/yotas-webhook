@@ -1,7 +1,7 @@
 ## How to contribute
 Just follow these steps :
 
-- Create an issue with your fix/feature/improvement (Optionnal but recommended).
+- Create an issue with your fix/feature/improvement (recommended).
 - Fork the project.
 - Create a branch for your feature/update/fix(Make sure to have the latest master-branch updates).
 - Create a Pull Request to develop branch.

@@ -1,6 +1,7 @@
 # Yotas-WebHook
 
-This is the yotas webhook github app.
+This is the yotas webhook github app for the [osscameroon](https://github.com/osscameroon/) organization.
+Check more details of this system [here](https://github.com/osscameroon/yotas).
 
 ## Purpose
 

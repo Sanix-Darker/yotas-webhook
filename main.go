@@ -86,7 +86,9 @@ func handleWebhook(w http.ResponseWriter, r *http.Request) {
 				logEvent(e)
 			},
 			Catch: func(e Exception) {
+				fmt.Println("------------------------------------------")
 				fmt.Printf("Caught : %v\n", e)
+				fmt.Println("------------------------------------------")
 			},
 			Finally: func() {
 				log.Printf("\n")
@@ -97,7 +99,8 @@ func handleWebhook(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	log.Println("[+] Yotas-WebHook server started")
+	log.Println("[+] Yotas-WebHook started...")
+	log.Println("[-] Running on http: http://127.0.0.1:9091/webhook")
 
 	http.HandleFunc("/webhook", handleWebhook)
 
